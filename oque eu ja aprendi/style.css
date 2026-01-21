@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/*
+fonte externa:
+*/
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+/*
+ fontes abaixadas:
+*/
+@font-face {
+    font-family: super;
+    src: url(fontes/super_meatball/Super\ Meatball.ttf) format(truetype);
+}
+body{
+    background: linear-gradient(to right, #4E3D71, #A177A9, #B5AFDB );
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+}
+/*
+Weight: Peso
+width: Largura
+height: Altura
+*/
+h1{
+    text-align: center;
+    color: #6A0DAD;
+    font-style: italic;
+    font-size: 2.3em;
+    font-weight: 600;
+    font-family: super;
+}
+
+h2{
+    color: black;
+    background: linear-gradient(to right, #4E3D71 2%, #A177A9, #B5AFDB ); 
+    width: auto;
+    padding: 6px;
+    text-align: justify;
+    margin: -10px;
+    
+    
+}
+
+p{
+    text-align: justify;
+    color: #333;
+    
+    
+}
+
+a{
+    color: #9B5DE5;
+}
+
+main{
+   background-color: white;
+   top: 10%;
+   margin: auto;
+   width: 700px;
+   margin-bottom: 20px;
+   border-radius: 10px;  
+   box-shadow: 0px 0px 10px #2c022c;
+   padding: 10px;
+   
+}
+#listas{
+    background-color: #6e5a6e;
+    
+}
+/*pseudoclasses */
+.classe123{
+    background-color: #6A0DAD;
+    text-align: center;
+    width: 400px;
+    border: 1px solid black;
+    height: 60px;
+    margin: auto;
+    right: 600px;
+    color: white;
+    
+    
+}
+
+.classe123:hover{
+    background-color: #000000;
+}
+/*hover*/
+#textoescondido:hover{
+color: #3800a7;
+}
+ 
+#textoescondido > p{
+    display: none;
+}
+
+#textoescondido:hover > p{
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: #9B5DE5;
+    width: 400px;    
+    height: 25px;
+    text-align: center;
+}
+/* links*/
+a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 100;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
