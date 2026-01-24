@@ -57,7 +57,8 @@ main{
    background-color: white;
    top: 10%;
    margin: auto;
-   width: 700px;
+   min-width: 320px;
+max-width: 1000px;
    margin-bottom: 20px;
    border-radius: 10px;  
    box-shadow: 0px 0px 10px #2c022c;
@@ -114,4 +115,20 @@ a:hover{
     color: black;
 }
 
+.blocos{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+}
 
+#q1{
+    background-color: #6A0DAD;
+}
+#q2{
+    background-image: linear-gradient( to right,#9B5DE5, black 70%);
+}
+#q3{
+background-image: url(imagens/wallpaper002.jpg);
+}
