@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 100%;
+}
+
+header{
+    background-color: black;
+    color: aliceblue;
+    
+    text-align: center;
+
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.normal{
+    background-color: aliceblue;
+    color: black;
+}
+
+.imagem{
+    background-image: url(imagens/background001.jpg);
+    background-size: 100% 100%;
+    height: 700px;
+    color: aliceblue;
+    background-color: black;
+}
+
+#conteudo{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
