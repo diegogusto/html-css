@@ -1,0 +1,109 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #181818;
+}
+
+header{
+    background: linear-gradient( orange 10%, rgb(156, 86, 0));
+    text-align: center;
+    padding: 50px;
+
+
+}
+
+header > h1{
+    font-size: 3.4em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
+    color: aliceblue;
+}
+
+header > p{
+    color: aliceblue;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+.container{
+    max-width: 900px;
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #333;
+    padding: 15px 50px;
+    text-align: center;
+    border: 400px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+nav > button{
+    background: transparent;
+    border: 1px solid orange;
+    padding: 5px 30px;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+nav > button:hover{
+    background-color: orange;
+}
+
+.story{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(127, 127, 127);
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+
+.story1{
+    background-color: #333;
+    color: aliceblue; 
+    max-width: 900px;
+    padding: 40px 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-left: 4px solid darkgoldenrod;
+}
+
+.story2{
+    background-color: #333;
+    color: aliceblue; 
+    max-width: 900px;
+    padding: 40px 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-left: 4px solid darkgoldenrod;
+}
+
+footer{
+    color: #5e5e5e;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
